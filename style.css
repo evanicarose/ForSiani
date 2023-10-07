@@ -1,0 +1,118 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFDD0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    color: #333;
+    margin-top: 50px;
+}
+h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #333;
+    margin-top: 5px;
+}
+
+h3 {
+    margin-top: 40px ; /* Add margin to the top and bottom, and auto to the left and right to center it */
+    margin-left: 100px;
+    margin-right: 100px; 
+    font-size: 18px; /* Adjust the font size as needed */
+    color: #333; /* Text color for the H3 element */
+    text-align: justify; /* Justify the text */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.message-container {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.image {
+    flex: 1;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.images-container {
+    display: flex;
+    justify-content: space-between; /* Create space between the images */
+}
+
+/* Style the mirrored images */
+.mirrored-image {
+    width: 400px; /* Set the width of each image */
+    height: 450px; /* Set the height of each image */
+    margin-right: 5px; /* Add space between the images */
+    margin-left: 5px;
+    transform: scaleX(-1); /* Mirror the image horizontally */
+}
+/*end*/
+nav {
+    
+    background-color: #FFDB58; /* Background color for the navigation menu */
+    padding: 20px 40px 20px 0; /* Add some spacing around the links */
+    text-align: right;
+}
+
+
+.nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    display: inline;
+    margin-left: 20px;
+}
+
+/* Style the navigation links */
+.nav-menu a {
+    text-decoration: none;
+    color: #333; /* Text color for the links */
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 10px; /* Add space between the links */
+}
+
+/* Change link color on hover */
+.nav-menu a:hover {
+    color: #FFFFFF; /* Change the link color on hover */
+}
+
+
+
+
+
+
+
+
+
